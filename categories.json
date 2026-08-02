@@ -1,0 +1,47 @@
+[
+  {
+    "id": "accessories",
+    "uz": "💍 Aksessuarlar",
+    "ru": "💍 Аксессуары"
+  },
+  {
+    "id": "bags",
+    "uz": "👜 Sumkalar",
+    "ru": "👜 Сумки"
+  },
+  {
+    "id": "women",
+    "uz": "🧕 Ayollar buyumlari",
+    "ru": "🧕 Женские товары"
+  },
+  {
+    "id": "home",
+    "uz": "🏠 Uy uchun",
+    "ru": "🏠 Для дома"
+  },
+  {
+    "id": "gifts",
+    "uz": "🎁 Sovg‘alar",
+    "ru": "🎁 Подарки"
+  },
+  {
+    "id": "beauty",
+    "uz": "🧴 Go‘zallik",
+    "ru": "🧴 Красота"
+  },
+  {
+    "id": "kids",
+    "uz": "👶 Bolalar buyumlari",
+    "ru": "👶 Детские товары"
+  },
+  {
+    "id": "clothes",
+    "uz": "👗 Kiyimlar",
+    "ru": "👗 Одежда"
+  },
+  {
+    "id": "other",
+    "uz": "📦 Boshqa",
+    "ru": "📦 Другое"
+  }
+]
