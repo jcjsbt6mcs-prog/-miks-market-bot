@@ -15,7 +15,19 @@ def load_users():
 def save_users(users):
     with open(FILE, "w", encoding="utf-8") as f:
         json.dump(users, f, ensure_ascii=False, indent=4)
+async def admin_panel(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    user_id = update.message.from_user.id
 
+    if user_id != ADMIN_ID:
+        await update.message.reply_text("❌ Siz admin emassiz.")
+        return
+
+    await update.message.reply_text(
+        "🔐 Admin panel | Админ панель\n\n"
+        "➕ Mahsulot qo‘shish | Добавить товар\n"
+        "🗑 Mahsulot o‘chirish | Удалить товар\n"
+        "📂 Kategoriyalar | Категории"
+    )
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     user_id = str(update.message.from_user.id)
